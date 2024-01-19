@@ -7,6 +7,34 @@
     <title>Form with flex</title>
 </head>
 <body>
-    
+    <form>
+        <div class="heeder">
+            <h2>Create an account</h2>
+            <p>We always keep your name and email address private.</p>
+        </div>
+        <div class="info">
+            <input type="text" placeholder="First name" id="first-name">
+            <input type="text" placeholder="Display name" id="display-name">
+            <input type="password" placeholder="Password" id="password">
+            <input type="text" placeholder="Last name" id="last-name">
+            <input type="email" placeholder="email addres" id="email-addres">
+            <input type="password" placeholder="Password confirmation" id="password-confirmation">
+        </div>
+        <div class="radio">
+            <input type="radio" id="buyer" class="join">
+            <label for="buyer" >Join As a Buyer</label>
+            <p>I am looking for a name, Logo or Tagline for my business, brand or product.</p>
+        </div>
+        <div class="radio">
+            <input type="radio" id="creative" class="join">
+            <label for="creative" >Join As a Creative or Marketplace Seller</label>
+            <p>I plan to submit name ideas, Logo desing or sell names in Domein Marketplace</p>
+        </div>
+        <div class="checkbox">
+            <input type="checkbox" id="time-checkbox">
+            <label for="time-checkbox">Allow Squadhelp to send marketing/promotional offers from time to time</label>
+        </div>
+        <input type="submit" value="Create account">
+    </form>
 </body>
 </html>
